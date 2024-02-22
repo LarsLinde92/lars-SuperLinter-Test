@@ -1,6 +1,8 @@
-const x = 5
-const y = 7
+const x = 5;
+const y = 7;
 
-function double (x) { return x * 2 }
-                    
-console.print('Dubbelt av 5 är ' + double(x) + double (y)));
+function double(x) {
+  return x * 2;
+}
+
+console.log('Dubbelt av 5 är ' + double(x) + ' och dubbelt av 7 är ' + double(y));
